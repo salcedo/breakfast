@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "breakfast"
+version = "0.1.0"
+authors = ["Brian Salcedo <brian@salcedo.tech>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
